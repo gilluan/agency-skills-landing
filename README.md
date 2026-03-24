@@ -1,62 +1,30 @@
 # Agency Skills Landing Page
 
-> Landing page de alta conversão para o produto "Claude Code Agency Skills"
-
-**URL:** [Em breve no Cloudflare]  
-**Stack:** Next.js 14 + Tailwind CSS  
-**Deploy:** Cloudflare Pages
-
----
+Landing page estática para o produto "Agency Skills" - convertida para HTML/CSS/JS puro.
 
 ## 🚀 Deploy
 
-```bash
-# Instalar dependências
-npm install
+Apenas um arquivo `index.html` - pode ser deployado em qualquer lugar:
 
-# Desenvolvimento
-npm run dev
-
-# Build para produção
-npm run build
-```
+- **Cloudflare Pages**: Conecte o repo e pronto
+- **GitHub Pages**: Ative em Settings → Pages
+- **Vercel/Netlify**: Drag & drop do arquivo
+- **Qualquer servidor web**: Só fazer upload
 
 ## 📁 Estrutura
 
 ```
-app/
-├── sections/
-│   ├── Hero.tsx
-│   ├── Problem.tsx
-│   ├── Solution.tsx
-│   ├── Features.tsx
-│   ├── Pricing.tsx
-│   ├── FAQ.tsx
-│   └── Footer.tsx
-├── components/
-│   ├── Button.tsx
-│   ├── Navbar.tsx
-│   └── Container.tsx
-├── page.tsx
-├── layout.tsx
-└── globals.css
-public/
-└── assets/
+index.html    # Tudo em um arquivo (HTML + CSS + JS)
+README.md     # Esta documentação
 ```
 
-## 🎨 Design
+## 🎨 Tecnologias
 
-- **Cores:** Indigo/Blue primary, Purple accent
-- **Tipografia:** Inter (Google Fonts)
-- **Estilo:** Clean, modern, tech-focused
-
-## 📊 Analytics
-
-- Plausible Analytics (lightweight, privacy-focused)
-- Event tracking para CTAs
+- HTML5 semântico
+- Tailwind CSS via CDN
+- JavaScript vanilla
+- Fonte: Inter (Google Fonts)
 
 ---
 
-*Desenvolvido para AIGENCY OS © 2026*
-
-Deployed to Cloudflare Pages - Mon Mar 23 14:04:16 UTC 2026
+*AIGENCY OS © 2026*
