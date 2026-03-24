@@ -1,0 +1,10 @@
+# Forçar revalidação de cache
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+  
+# Assets estáticos podem ter cache longo
+*.css
+  Cache-Control: public, max-age=31536000, immutable
+  
+*.js
+  Cache-Control: public, max-age=31536000, immutable
